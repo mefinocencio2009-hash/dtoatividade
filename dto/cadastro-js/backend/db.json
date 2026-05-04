@@ -13,6 +13,27 @@
       "email": "henry@gmail.com",
       "senha": "$2a$12$ExZlvszVix0Wv6OqQjGa0es.ljbc5QnHWhg2JVZtcEy5dMORYTGYy",
       "criadoEm": "2026-05-04T13:53:40.033Z"
+    },
+    {
+      "id": 1777904031985,
+      "nome": "joao",
+      "email": "joao@gmail.com",
+      "senha": "$2a$12$I2D7Cwp5Pgl3CvJ21Yw6g.s.6nbU6AMHhsyBRhPYBLc1YIy6Bzj/m",
+      "criadoEm": "2026-05-04T14:13:51.985Z"
+    },
+    {
+      "id": 1777904051775,
+      "nome": "Ana",
+      "email": "ana@gmail.com",
+      "senha": "$2a$12$G9YS9rlOEv/7bT1SnYAYqePRuIB0WWLmTCNMfw5vuJS2.WWqiMQLq",
+      "criadoEm": "2026-05-04T14:14:11.775Z"
+    },
+    {
+      "id": 1777904090382,
+      "nome": "aquiles",
+      "email": "aquilao@gmail.com",
+      "senha": "$2a$12$V9zkhxoBGexjt7nS43fp6.K86gJQ.U.HY05Ve0perQY4E1yZKWYaq",
+      "criadoEm": "2026-05-04T14:14:50.382Z"
     }
   ]
 }
