@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cadastro | Sistema Profissional</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+
+<body>
+<div class="container">
+  
+  <div class="left">
+    <div class="logo">
+      <i class="fas fa-shield-alt"></i>
+      <h1>SecureApp</h1>
+    </div>
+    
+    <div>
+      <h2 class="hero-title">Crie sua conta agora</h2>
+      <p class="hero-subtitle">
+        Junte-se a milhares de profissionais que confiam na nossa 
+        plataforma para gerenciar seus projetos com segurança total.
+      </p>
+    </div>
+    
+    <div class="features">
+      <div class="feature">
+        <i class="fas fa-lock"></i>
+        <span>Segurança 100% criptografada</span>
+      </div>
+      <div class="feature">
+        <i class="fas fa-shield-halved"></i>
+        <span>Autenticação 2FA</span>
+      </div>
+      <div class="feature">
+        <i class="fas fa-bolt"></i>
+        <span>Login instantâneo</span>
+      </div>
+      <div class="feature">
+        <i class="fas fa-users"></i>
+        <span>+10k usuários ativos</span>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="right">
+    <div class="card">
+      <div class="card-header">
+        <h2 class="card-title">Criar Conta</h2>
+        <p class="card-subtitle">Preencha os dados para começar</p>
+      </div>
+
+      <form id="formCadastro">
+        <div class="input-group">
+          <label class="input-label">Nome completo</label>
+          <div class="input-wrapper">
+            <input class="input-field" id="nome" placeholder="Digite seu nome" required>
+          </div>
+        </div>
+
+        <div class="input-group">
+          <label class="input-label">Email corporativo</label>
+          <div class="input-wrapper">
+            <input class="input-field" id="email" type="email" placeholder="seu@email.com" required>
+          </div>
+        </div>
+
+        <div class="input-group">
+          <label class="input-label">Senha</label>
+          <div class="input-wrapper">
+            <input class="input-field" id="senha" type="password" placeholder="Mínimo 6 caracteres" required>
+            <i class="fas fa-eye password-toggle" id="toggleSenha"></i>
+          </div>
+        </div>
+
+        <button type="submit" class="btn-primary" id="btn">
+          <span id="btnText">Criar minha conta</span>
+        </button>
+
+        <div id="mensagem" class="mensagem" style="display: none;"></div>
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

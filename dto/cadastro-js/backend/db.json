@@ -1,0 +1,18 @@
+{
+  "usuarios": [
+    {
+      "id": 1777902795085,
+      "nome": "duda",
+      "email": "duda@gmail.com",
+      "senha": "$2a$12$RW7qVjD.FIw5rdv5SQMFN.Ud/MRPzis4TGGJSFJIgAfxVOLZX9D46",
+      "criadoEm": "2026-05-04T13:53:15.085Z"
+    },
+    {
+      "id": 1777902820033,
+      "nome": "henry",
+      "email": "henry@gmail.com",
+      "senha": "$2a$12$ExZlvszVix0Wv6OqQjGa0es.ljbc5QnHWhg2JVZtcEy5dMORYTGYy",
+      "criadoEm": "2026-05-04T13:53:40.033Z"
+    }
+  ]
+}
